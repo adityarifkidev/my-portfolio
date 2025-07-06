@@ -75,7 +75,7 @@ const About = () => {
               <div className="timeline-content">
                 <h4>Front-end Developer & UI/UX Designer</h4>
                 <p className="timeline-company">Solusi Digital Kamu</p>
-                <p className="timeline-period">2022 - Present</p>
+                <p className="timeline-period">Maret 2025 - Present</p>
                 <p>
                   Creating responsive web applications and designing user interfaces for various clients. 
                   Specializing in React, Next.js, and modern design tools.
@@ -86,28 +86,17 @@ const About = () => {
             <div className="timeline-item">
               <div className="timeline-dot"></div>
               <div className="timeline-content">
-                <h4>Freelance Web Developer</h4>
-                <p className="timeline-company">Self-Employed</p>
-                <p className="timeline-period">2021 - 2022</p>
+                <h4>Front End Developer (Internship)</h4>
+                <p className="timeline-company">Gamelab</p>
+                <p className="timeline-period">Feb 2024 - June 2024</p>
                 <p>
-                  Built custom websites and web applications for small businesses and startups. 
-                  Gained experience in full-stack development and client communication.
+                  UI/UX Designer for Jejak Nusantara news portal project. Developed and designed 
+                  user interfaces for news portal using modern front-end technologies.
                 </p>
               </div>
             </div>
 
-            <div className="timeline-item">
-              <div className="timeline-dot"></div>
-              <div className="timeline-content">
-                <h4>UI/UX Design Intern</h4>
-                <p className="timeline-company">Digital Agency</p>
-                <p className="timeline-period">2020 - 2021</p>
-                <p>
-                  Learned the fundamentals of user experience design and interface development. 
-                  Worked on real projects and gained practical experience.
-                </p>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>

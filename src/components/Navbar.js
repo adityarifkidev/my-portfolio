@@ -33,6 +33,7 @@ const Navbar = () => {
           <a onClick={() => scrollToSection('home')} className="nav-link">Home</a>
           <a onClick={() => scrollToSection('about')} className="nav-link">About</a>
           <a onClick={() => scrollToSection('skills')} className="nav-link">Skills</a>
+          <a onClick={() => scrollToSection('resume')} className="nav-link">Resume</a>
           <a onClick={() => scrollToSection('projects')} className="nav-link">Projects</a>
           <a onClick={() => scrollToSection('contact')} className="nav-link">Contact</a>
         </div>

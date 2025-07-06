@@ -34,6 +34,7 @@ const Footer = () => {
               <li><a onClick={() => document.getElementById('home').scrollIntoView({ behavior: 'smooth' })}>Home</a></li>
               <li><a onClick={() => document.getElementById('about').scrollIntoView({ behavior: 'smooth' })}>About</a></li>
               <li><a onClick={() => document.getElementById('skills').scrollIntoView({ behavior: 'smooth' })}>Skills</a></li>
+              <li><a onClick={() => document.getElementById('resume').scrollIntoView({ behavior: 'smooth' })}>Resume</a></li>
               <li><a onClick={() => document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })}>Projects</a></li>
               <li><a onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>Contact</a></li>
             </ul>

@@ -1,0 +1,204 @@
+.resume-section {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.resume-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.resume-content {
+  text-align: center;
+}
+
+.resume-section .section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.resume-section .section-subtitle {
+  font-size: 1.2rem;
+  color: #6b7280;
+  margin-bottom: 60px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resume-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 60px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resume-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.resume-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  color: white;
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+}
+
+.resume-card h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 15px;
+}
+
+.resume-card p {
+  font-size: 1.1rem;
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.download-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+}
+
+.download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 40px rgba(102, 126, 234, 0.4);
+  background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+}
+
+.download-btn:active {
+  transform: translateY(0);
+}
+
+.resume-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.highlight-item {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.highlight-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.highlight-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.highlight-item h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 10px;
+}
+
+.highlight-item p {
+  font-size: 1rem;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .resume-section {
+    padding: 80px 0;
+  }
+  
+  .resume-section .section-title {
+    font-size: 2.5rem;
+  }
+  
+  .resume-card {
+    padding: 30px 20px;
+    margin-bottom: 40px;
+  }
+  
+  .resume-card h3 {
+    font-size: 1.5rem;
+  }
+  
+  .resume-card p {
+    font-size: 1rem;
+  }
+  
+  .download-btn {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+  
+  .resume-highlights {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .highlight-item {
+    padding: 25px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .resume-section .section-title {
+    font-size: 2rem;
+  }
+  
+  .resume-section .section-subtitle {
+    font-size: 1rem;
+  }
+  
+  .resume-card {
+    padding: 25px 15px;
+  }
+  
+  .resume-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .resume-icon svg {
+    width: 30px;
+    height: 30px;
+  }
+} 
