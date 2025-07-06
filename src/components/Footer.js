@@ -54,7 +54,7 @@ const Footer = () => {
             <h4>Contact Info</h4>
             <div className="footer-contact">
               <p>📧 adityarifki.dev@gmail.com</p>
-              <p>📱 +62 812-3456-7890</p>
+              <p>📱 +62 895-6325-65829</p>
               <p>📍 Semarang, Central Java, Indonesia</p>
             </div>
           </div>
